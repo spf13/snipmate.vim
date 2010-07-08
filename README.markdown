@@ -1,3 +1,9 @@
+## History
+snipMate.vim aims to be an unobtrusive, concise vim script that implements some of TextMate's snippets features in Vim. A snippet is a piece of often-typed text that you can insert into your document using a trigger word followed by a <tab>. 
+
+The original plugin is developed by [Michael Sanders(http://github.com/msanders/))] 
+
+
 ## Installation
 Quickly install with:
 
