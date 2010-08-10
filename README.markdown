@@ -3,11 +3,15 @@ snipMate.vim aims to be an unobtrusive, concise vim script that implements some 
 
 The original plugin is developed by [Michael Sanders(http://github.com/msanders/))] 
 
+=======
+## Snipmate
+
+This is a fork of msanders snipmate. I have modified it so that the original snippets do not collide with the larger snipmate repository (see below).
 
 ## Installation
 Quickly install with:
 
-    git clone git://github.com/spf13/snipmate.vim.git
+    git clone https://spf13@github.com/spf13/snipmate.vim.git
 	cd snipmate.vim
 	cp -R * ~/.vim
 
