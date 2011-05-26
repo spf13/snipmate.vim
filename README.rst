@@ -3,13 +3,22 @@ snipmate.vim
 ============
 
 :Author: `Michael Sanders`_
-:Maintainer: `Rok Garbas`_
+:Maintainer: `Rok Garbas`_, `spf13`_
 :Homepage: http://www.vim.org/scripts/script.php?script_id=2540 
 :Contributors: `MarcWeber`_, `lilydjwg`_, `henrik`_, `steveno`_, `asymmetric`_, `jherdman`_, `ironcamel`_, `honza`_, `jb55`_, `robhudson`_, `kozo2`_, `MicahElliott`_, `darkwise`_, `redpill`_, `thisgeek`_, `sickill`_, `pose`_, `marutanm`_, `r00k`_, `jbernard`_, `holizz`_, `muffinresearch`_, `statik`_, Eustaquio Rangel, `alderz`_
 
 
 .. contents::
 
+Note on SPF13 Version
+=====================
+I have updated snipmate to work with separate snippet repositories.
+
+It works in parallel with my snipmate-snippets repository.
+(or even better, fork it and use your own)
+
+	git clone git://github.com/spf13/snipmate-snippets.git
+	ln -s /path/to/snipmate-snippets ~/.vim/snippets
 
 Why forking snipMate?
 =====================
@@ -186,7 +195,7 @@ TODO / Future
       snipmate-snippets-vim
       snipmate-snippets-....
       One repo containing snippets is:
-      git://github.com/scrooloose/snipmate-snippets.git
+      git://github.com/spf13/snipmate-snippets.git
 
       comment without verifying it:
       < Silex> MarcWeber: btw, check out ultisnips. Much better than snipmate imho
@@ -203,6 +212,7 @@ TODO / Future
 .. _`vim-addon-mw-utils`: https://github.com/MarcWeber/vim-addon-mw-utils
 .. _`tlib`: https://github.com/tomtom/tlib_vim
 
+.. _`spf13`: https://github.com/spf13
 .. _`garbas`: https://github.com/garbas
 .. _`MarcWeber`: https://github.com/MarcWeber
 .. _`lilydjwg`: https://github.com/lilydjwg
