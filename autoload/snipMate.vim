@@ -16,6 +16,7 @@ let s:snipMate['scope_aliases'] = get(s:snipMate,'scope_aliases',
 	  \ ,'php': 'php,html,javascript'
 	  \ ,'ur': 'html,javascript'
 	  \ ,'mxml': 'actionscript'
+	  \ ,'jinja': 'html'
 	  \ } )
 
 fun! Filename(...)
@@ -594,6 +595,7 @@ fun! snipMate#GetSnippetFiles(mustExist, scopes, trigger)
 
 	  " without name snippets/<filetype>/<trigger>.snippet
 	  for f in s:Glob(r.'/snippets/'.scope,'/'.a:trigger.'.snippet')
+		"echom(scope)
 		let trigger = fnamemodify(f,':t:r')
 		let result[f] = {'exists': 1, 'type': 'snippet', 'name': 'default', 'trigger': trigger, 'name_prefix' : rtp_last.' '.scope}
 	  endfor
